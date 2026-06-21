@@ -1,21 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Calculator Website</title>
+    <title>GPA Calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <h1>Simple Calculator</h1>
+<div class="container">
 
-    <div class="container">
+    <h1>GPA Calculator</h1>
 
-        <input type="number" id="num1" placeholder="Enter first number">
-        <input type="number" id="num2" placeholder="Enter second number">
+   <input type="number" id="course1" placeholder="Course 1 Mark">
+<input type="number" id="course2" placeholder="Course 2 Mark">
+<input type="number" id="course3" placeholder="Course 3 Mark">
+<input type="number" id="course4" placeholder="Course 4 Mark">
+<input type="number" id="course5" placeholder="Course 5 Mark">
+<input type="number" id="course6" placeholder="Course 6 Mark">
 
-        <button onclick="calculate()">Add Numbers</button>
+<button onclick="calculateGPA()">Calculate GPA</button>
+<h2 id="result"></h2>
 
-        <div id="result"></div>
+</div>
 
-    </div>
+<script src="script.js"></script>
+
+</body>
+</html>
