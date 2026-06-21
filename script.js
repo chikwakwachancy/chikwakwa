@@ -14,7 +14,7 @@ function calculateGPA() {
     if (average >= 80) {
         gpa = 4.0;
     }
-    else if (average >= 70) {s
+    else if (average >= 70) {
         gpa = 3.5;
     }
     else if (average >= 60) {
@@ -30,3 +30,4 @@ function calculateGPA() {
     document.getElementById("result").innerHTML =
         "Average: " + average.toFixed(2) +
         "<br> GPA: " + gpa;
+}
